@@ -1,5 +1,5 @@
 本软件享有软件著作权：基于粒子群算法的多晶超硬材料超精密抛光路径规划软件, 北京：2024SR0182300, 中国
-This software is subject to copyright: Ultra-precision polishing path planning software for polycrystalline superhard materials based on the particle swarm algorithm, Beijing: 2024SR0182300, China.
+This software is subject to copyright: Ultra-precision polishing path planning software for polycrystalline superhard materials based on the particle swarm organization, Beijing: 2024SR0182300, China.
 
 zh-cn
 {
