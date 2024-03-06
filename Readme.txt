@@ -11,7 +11,8 @@ zh-cn
     用户协议：
     {
         在开始使用本软件(代码)之前，您需要了解并认可一些内容。继续使用本软件(代码)意味着您已认可以下内容：
-        1.本软件(代码)遵循Apache License 2.0协议。
+        1.本软件(代码)遵循Apache License 2.0协议。程序中PSO部分代码来自TimePickerWang撰写的MachineLearning库，
+            PSO代码源：https://github.com/TimePickerWang/MachineLearning/blob/master/MachineLearning/OptAlgorithm/PSO.py
         2.本软件(代码)为免费软件(代码)，任何组织或个人不得将软件(代码)的任何内容用于商业行为。
         3.作者享有本软件(代码)著作权，使用请注明来源。
         4.用户协议以最新发布版为准。
