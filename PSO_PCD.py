@@ -152,13 +152,13 @@ Sa11 = []
 for n in range(numtime):
     J = np.arange(num_j)
     t = np.zeros(num_j)
-    r = 100 # 平均晶粒半径 nm
+    r = 100 # 平均晶粒尺寸 nm
     h = 5000 # 平均晶粒高度 nm
     sigma = 50
     ΔD_max = 2
     ΔD_min = 0.5 # 深度间隔 nm
     Sa = 0.5 # 程序终止条件（预期粗糙度）
-    S = np.absolute(np.random.normal(math.pi*r**2, math.pi*10**2, (num_crystal,1))) \
+    S = np.absolute(np.random.normal(math.pi*(r/2)**2, math.pi*10**2, (num_crystal,1))) \
         # 晶粒面积 正态分布 nm^2
     High00 = np.random.normal(0, sigma, (num_crystal,1))+h # 晶粒初始高度 nm Cv=0.025
     for _ in range(len(High00)):
